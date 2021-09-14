@@ -6,7 +6,7 @@ Inhaltsverzeichnis:
 
 # 1. Autoren, Versionierung des Dokumentes
 
-<strong> Autoren </strong>
+<strong> Autoren: </strong>
 Elia Garzi 
 Sebastian Gruber
 
