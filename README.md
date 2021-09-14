@@ -1,8 +1,6 @@
 # Werkstattauftrag W7 Webmin
 
 
-Inhaltsverzeichnis:
--------------------
 
 # 1. Autoren, Versionierung des Dokumentes
 
