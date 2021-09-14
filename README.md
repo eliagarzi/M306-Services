@@ -31,3 +31,16 @@ Version: 1.0
 # 7. Quellen
 
 # 8. OpenSource Lizenz
+OpenSource Lizenz
+
+copyright
+
+Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Schweiz Lizenz
+About
+No description, website, or topics provided.
+Resources
+Readme
+Releases
+No releases published
+Packages
+No packages published 
