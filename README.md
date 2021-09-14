@@ -6,6 +6,12 @@ Inhaltsverzeichnis:
 
 # 1. Autoren, Versionierung des Dokumentes
 
+<strong> Autoren </strong>
+Elia Garzi 
+Sebastian Gruber
+
+Version: 1.0
+
 # 2. Einfuehrung 
    - Beschreibung: Welche Funktionen wird der Service erfuellen
    - Vorgesehener Zeitaufwand für die Realisierung
