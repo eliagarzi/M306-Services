@@ -1,5 +1,5 @@
 # Werkstattauftrag Wxx + Plex Mediaserver
-===========================================================================
+
 
 Inhaltsverzeichnis:
 -------------------
