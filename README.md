@@ -13,17 +13,14 @@ Inhaltsverzeichnis:
 
 # 3. Benoetigte Hard- und Software
    - Hardware (Materialliste, Funktionalitaet)
-   - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Ab-
-	hängigkeiten, Funktionalitaet)
+   - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
 
-# 4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine
-     eigene Lösungswege realisieren)
+# 4. Installationsanleitung 
    - Anweisungen verstaendlich und nachvollziehbar
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
 
-# 5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos
-	und entsprechenden Outputs)
+# 5. Qualitaetskontrolle 
 
 # 6. Error-Handling 
 
