@@ -7,7 +7,7 @@ Inhaltsverzeichnis:
 # 1. Autoren, Versionierung des Dokumentes
 
 <strong> Autoren: </strong>
-Elia Garzi 
+Elia Garzi, 
 Sebastian Gruber
 
 Version: 1.0
