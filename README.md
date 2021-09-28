@@ -5,12 +5,12 @@
 # 1. Autoren, Versionierung des Dokumentes
 
 <strong> Autoren: </strong>
-Elia Garzi, 
+Elia Garzi,
 Sebastian Gruber
 
 Version: 1.0
 
-# 2. Einfuehrung 
+# 2. Einfuehrung
    - Beschreibung: Welche Funktionen wird der Service erfuellen
    - Vorgesehener Zeitaufwand für die Realisierung
    - Stolpersteine
@@ -19,7 +19,7 @@ Version: 1.0
    - Hardware (Materialliste, Funktionalitaet)
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
 
-# 4. Installationsanleitung 
+# 4. Installationsanleitung
    - Anweisungen verstaendlich und nachvollziehbar
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
@@ -30,9 +30,9 @@ Version: 1.0
 
 
 
-# 5. Qualitaetskontrolle 
+# 5. Qualitaetskontrolle
 
-# 6. Error-Handling 
+# 6. Error-Handling
 
 # 7. Quellen
 
