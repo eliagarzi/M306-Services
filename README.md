@@ -23,9 +23,6 @@
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
 
 # 4. Installationsanleitung
-   - Anweisungen verstaendlich und nachvollziehbar
-   - Keine fertigen Loesungsschritte aufzeigen
-   - Hilfestellung (Tipps, Quellen...)
 
 ## **1. Pi-OS installieren**
 Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden. 
@@ -46,7 +43,6 @@ Nach der Installation startet man den Pi Imager und wählt als Betriebssystem Pi
 Für diesen Schritt braucht man: 
 - Einen Bildschirm 
 - WLAN oder LAN-Kabel
-
 
 Sobald man das Pi OS installiert hat, kann man die SD-Karte in den Raspberry Pi stecken und das Pi starten. Anschliessend kommt eine einfache Grundkonfiguration. Hier muss man die Sprache und das Passwort setzen. Es ist wichtig, dass die Zeitzone richtig auf Zurich konfiguriert ist. 
 
@@ -72,9 +68,14 @@ Damit die Verbindung funktioniert, braucht man die IP-Adresse
 **2. Sich über VNC verbinden**
 - VNC Viewer installieren
 - VNC Viewer ausführen und über die IP-Adresse verbinden
+
 **3. Sich über SSH verbinden**
+Um sich über SSH zu verbinden braucht man eine SSH-Konsole. Z.B. Putty. Putty kann von hier heruntergeladenwerden: 
 
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
+Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
+![Putty](https://user-images.githubusercontent.com/62818267/135057716-356923e4-3691-4964-b23e-a6c626986576.png)
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
 **1. Alle Updates installieren**
@@ -85,9 +86,12 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 `sudo apt-get update && sudo apt-get upgrade -y`
 
+
 **2. Webmin Repository hinzufügen**
 
+
 **2. Webmin installieren**
+
 
 # 5. Qualitaetskontrolle
 
