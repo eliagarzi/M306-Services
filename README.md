@@ -23,14 +23,29 @@ Version: 1.0
    - Anweisungen verstaendlich und nachvollziehbar
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
-## **Pi-OS installieren**
-## **Eine Verbindung mit VNC Viewer herstellen**
-## **Raspberry Pi für die Installation vorbereiten**
-- Statische IP setzen
 
+## **1 Pi-OS installieren**
+
+**1. Herunterladen des Pi-Hole Imager**
+**2. Pi-Hole Image auf SD Karte installieren**
+**3. Grundkonfiguration vornehmen**
+
+## **2 Remoteverbindung mit Raspberry Pi herstellen**
+
+**1. VNC und SSH aktivieren**
+**2. Sich über VNC verbinden**
+- VNC Viewer installieren
+- VNC Viewer ausführen und über die IP-Adresse verbinden
+**3. Sich über SSH verbinden** 
+
+## **3 Raspberry Pi für die Installation vorbereiten**
+**1. Alle Updates installieren**
+**2.** 
 
 
 # 5. Qualitaetskontrolle 
+
+Anforderungen: 
 
 # 6. Error-Handling 
 
