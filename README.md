@@ -14,8 +14,15 @@
 **1. Was ist Webmin?**
 
 
+
    - Beschreibung: Welche Funktionen wird der Service erfuellen
+
+         Webmin ist ein interface welches dir erlauft viele features und Funktionen zentral im Webmingui zu verwalten. Ohne Webmin müsste man alles manuell auf der Konsole eintippen.
+
    - Vorgesehener Zeitaufwand für die Realisierung
+
+         Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
+
    - Stolpersteine
 
 # 3. Benoetigte Hard- und Software
