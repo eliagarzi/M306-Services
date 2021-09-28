@@ -4,11 +4,11 @@
 
 # 1. Autoren, Versionierung des Dokumentes
 
-<strong> Autoren: </strong>
-Elia Garzi,
-Sebastian Gruber
+**Autoren:** Elia Garzi, Sebastian Gruber
 
-Version: 1.0
+**Datum:** 29.09.2021
+
+**Version:** 1.0
 
 # 2. Einfuehrung
    - Beschreibung: Welche Funktionen wird der Service erfuellen
