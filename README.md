@@ -16,7 +16,7 @@
 
    - Beschreibung: Welche Funktionen wird der Service erfuellen
 
-         Webmin ist ein interface welches dir erlauft viele features und Funktionen zentral im Webmingui zu verwalten. Ohne Webmin müsste man alles manuell auf der Konsole eintippen.
+      Webmin ist ein interface welches dir erlauft viele features und Funktionen zentral im Webmingui zu verwalten. Ohne Webmin müsste man alles manuell auf der Konsole eintippen.
 
    - Vorgesehener Zeitaufwand für die Realisierung
 
