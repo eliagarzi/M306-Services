@@ -23,6 +23,12 @@ Version: 1.0
    - Anweisungen verstaendlich und nachvollziehbar
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
+## **Pi-OS installieren**
+## **Eine Verbindung mit VNC Viewer herstellen**
+## **Raspberry Pi für die Installation vorbereiten**
+- Statische IP setzen
+
+
 
 # 5. Qualitaetskontrolle 
 
