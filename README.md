@@ -3,13 +3,17 @@
 
 # 1. Autoren, Versionierung des Dokumentes
 
-<strong> Autoren: </strong>
-Elia Garzi,
-Sebastian Gruber
+**Autoren:** Elia Garzi, Sebastian Gruber
 
-Version: 1.0
+**Datum:** 29.09.2021
+
+**Version:** 1.0
 
 # 2. Einfuehrung
+
+**1. Was ist Webmin?**
+
+
    - Beschreibung: Welche Funktionen wird der Service erfuellen
    - Vorgesehener Zeitaufwand für die Realisierung
    - Stolpersteine
@@ -23,22 +27,36 @@ Version: 1.0
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
 
-## **1 Pi-OS installieren**
+## **1. Pi-OS installieren**
+Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden. 
+Dazu gibt das offizielle Pi OS, welches auf Debian basiert. 
 
-**1. Herunterladen des Pi-Hole Imager**
-**2. Pi-Hole Image auf SD Karte installieren**
+Zur einfachen Installation des Betriebessystemes nutzen wir den Pi Imager, der von der offiziellen Website heruntergeladen werden kann:
+
+https://www.raspberrypi.org/software/
+
+
+**1. Pi-Hole Image auf SD Karte installieren**
+Nach der Installation startet man den Pi Imager und wählt als Betriebssystem Pi OS (32-Bit) aus und als SD-Karte die SD-Karte die man mit dem Raspberry Pi bekommen hat. 
 
 ![Pi OS mit dem Pi Imager installieren](https://user-images.githubusercontent.com/62818267/135052119-cdbbcb2a-f0aa-4372-a9c2-80e4a8bb2afd.png)
 
 
-**3. Grundkonfiguration vornehmen**
+**2. Grundkonfiguration vornehmen**
+Für diesen Schritt braucht man: 
+- Einen Bildschirm 
+- WLAN oder LAN-Kabel
 
-Raspberry Pi mit WLAN oder LAN verbinden
+
+Sobald man das Pi OS installiert hat, kann man die SD-Karte in den Raspberry Pi stecken und das Pi starten. Anschliessend kommt eine einfache Grundkonfiguration. Hier muss man die Sprache und das Passwort setzen. Es ist wichtig, dass die Zeitzone richtig auf Zurich konfiguriert ist. 
+
+Wir haben unser Raspberry Pi mit einem TBZ Access Point verbunden. Dafür wählt man oben Rechts das WLAN-Icon aus. 
 
 ![Den TBZ-WLAN Access Point auswählen für eine Netzwerkverbindung](https://user-images.githubusercontent.com/62818267/135052323-5dcdb100-6dda-405a-a4b8-f963bef7c092.png)
 
 
 ## **2 Remoteverbindung mit Raspberry Pi herstellen**
+Um das Raspberry Pi einfacher zu verwalten nutzt man eine Remoteverbindung. 
 
 **1. VNC und SSH aktivieren**
 
