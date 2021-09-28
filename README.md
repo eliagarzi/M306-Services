@@ -12,7 +12,7 @@
 
 # 2. Einfuehrung
 
-**1. Grundkonfiguration vornehmen**
+**1. Was ist Webmin?**
 
 
    - Beschreibung: Welche Funktionen wird der Service erfuellen
