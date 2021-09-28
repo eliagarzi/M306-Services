@@ -24,6 +24,8 @@
          Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
 
    - Stolpersteine
+  
+      hh
 
 # 3. Benoetigte Hard- und Software
    - Hardware (Materialliste, Funktionalitaet)
