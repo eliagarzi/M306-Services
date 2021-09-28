@@ -35,6 +35,7 @@ Version: 1.0
 **3. Grundkonfiguration vornehmen**
 
 Raspberry Pi mit WLAN oder LAN verbinden
+
 ![Den TBZ-WLAN Access Point auswählen für eine Netzwerkverbindung](https://user-images.githubusercontent.com/62818267/135052323-5dcdb100-6dda-405a-a4b8-f963bef7c092.png)
 
 
