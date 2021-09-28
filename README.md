@@ -11,6 +11,10 @@
 **Version:** 1.0
 
 # 2. Einfuehrung
+
+**1. Grundkonfiguration vornehmen**
+
+
    - Beschreibung: Welche Funktionen wird der Service erfuellen
    - Vorgesehener Zeitaufwand für die Realisierung
    - Stolpersteine
@@ -24,7 +28,7 @@
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
 
-## **1 Pi-OS installieren**
+## **1. Pi-OS installieren**
 Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden. 
 Dazu gibt das offizielle Pi OS, welches auf Debian basiert. 
 
