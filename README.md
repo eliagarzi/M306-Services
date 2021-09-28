@@ -28,15 +28,32 @@ Version: 1.0
 
 **1. Herunterladen des Pi-Hole Imager**
 **2. Pi-Hole Image auf SD Karte installieren**
+
+![Pi OS mit dem Pi Imager installieren](https://user-images.githubusercontent.com/62818267/135052119-cdbbcb2a-f0aa-4372-a9c2-80e4a8bb2afd.png)
+
+
 **3. Grundkonfiguration vornehmen**
+
+Raspberry Pi mit WLAN oder LAN verbinden
+![Den TBZ-WLAN Access Point auswählen für eine Netzwerkverbindung](https://user-images.githubusercontent.com/62818267/135052323-5dcdb100-6dda-405a-a4b8-f963bef7c092.png)
+
 
 ## **2 Remoteverbindung mit Raspberry Pi herstellen**
 
 **1. VNC und SSH aktivieren**
+
+![SSH und VNC in den Einstellungen aktivieren](https://user-images.githubusercontent.com/62818267/135052013-7266a091-3a32-462a-867b-ff9f3d6bd1f7.png)
+
+Damit die Verbindung funktioniert, braucht man die IP-Adresse
+![Ip Adresse](https://user-images.githubusercontent.com/62818267/135052280-13b123f7-6655-4d44-ad18-1fc2801ff447.png)
+
+
 **2. Sich über VNC verbinden**
 - VNC Viewer installieren
 - VNC Viewer ausführen und über die IP-Adresse verbinden
 **3. Sich über SSH verbinden** 
+
+
 
 ## **3 Raspberry Pi für die Installation vorbereiten**
 **1. Alle Updates installieren**
