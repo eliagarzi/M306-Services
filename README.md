@@ -56,20 +56,22 @@ Damit die Verbindung funktioniert, braucht man die IP-Adresse
 
 
 
-## **3 Raspberry Pi für die Installation vorbereiten**
+## **3 Webmin auf dem Raspberry Pi installieren**
 **1. Alle Updates installieren**
-**2.** 
 
+Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates installiert sind. 
+
+Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
+
+`sudo apt-get update && sudo apt-get upgrade -y`
+
+**2. Webmin Repository hinzufügen** 
+
+**2. Webmin installieren** 
 
 # 5. Qualitaetskontrolle
 
-<<<<<<< HEAD
 # 6. Error-Handling
-=======
-Anforderungen: 
-
-# 6. Error-Handling 
->>>>>>> c9bf6641de93272400b0adbee74c75190b825750
 
 # 7. Quellen
 
