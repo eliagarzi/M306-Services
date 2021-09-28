@@ -1,7 +1,6 @@
 # Werkstattauftrag W7 Webmin
 
 
-
 # 1. Autoren, Versionierung des Dokumentes
 
 <strong> Autoren: </strong>
@@ -43,6 +42,9 @@ Raspberry Pi mit WLAN oder LAN verbinden
 
 **1. VNC und SSH aktivieren**
 
+Um VNC zu aktivieren folgt man diesem Pfad: <br>
+Einstellungen/Raspberry-Pi-Konfiguration/Schnittstelle
+
 ![SSH und VNC in den Einstellungen aktivieren](https://user-images.githubusercontent.com/62818267/135052013-7266a091-3a32-462a-867b-ff9f3d6bd1f7.png)
 
 Damit die Verbindung funktioniert, braucht man die IP-Adresse
@@ -52,22 +54,22 @@ Damit die Verbindung funktioniert, braucht man die IP-Adresse
 **2. Sich über VNC verbinden**
 - VNC Viewer installieren
 - VNC Viewer ausführen und über die IP-Adresse verbinden
-**3. Sich über SSH verbinden** 
+**3. Sich über SSH verbinden**
 
 
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
 **1. Alle Updates installieren**
 
-Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates installiert sind. 
+Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates installiert sind.
 
 Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 `sudo apt-get update && sudo apt-get upgrade -y`
 
-**2. Webmin Repository hinzufügen** 
+**2. Webmin Repository hinzufügen**
 
-**2. Webmin installieren** 
+**2. Webmin installieren**
 
 # 5. Qualitaetskontrolle
 
