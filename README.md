@@ -45,13 +45,13 @@ Zur einfachen Installation des Betriebessystemes nutzen wir den Pi Imager, der v
 https://www.raspberrypi.org/software/
 
 
-**1. Pi-Hole Image auf SD Karte installieren**
+### **1. Pi-Hole Image auf SD Karte installieren**
 Nach der Installation startet man den Pi Imager und wählt als Betriebssystem Pi OS (32-Bit) aus und als SD-Karte die SD-Karte die man mit dem Raspberry Pi bekommen hat. 
 
 ![Pi OS mit dem Pi Imager installieren](https://user-images.githubusercontent.com/62818267/135052119-cdbbcb2a-f0aa-4372-a9c2-80e4a8bb2afd.png)
 
 
-**2. Grundkonfiguration vornehmen**
+### **2. Grundkonfiguration vornehmen**
 Für diesen Schritt braucht man: 
 - Einen Bildschirm 
 - WLAN oder LAN-Kabel
@@ -67,7 +67,7 @@ Wir haben unser Raspberry Pi mit einem TBZ Access Point verbunden. Dafür wählt
 ## **2 Remoteverbindung mit Raspberry Pi herstellen**
 Um das Raspberry Pi einfacher zu verwalten nutzt man eine Remoteverbindung. Dies ermöglicht, dass man über das Netzwerk mit dem Raspberry Pi arbeiten kann. 
 
-**1. VNC und SSH aktivieren**
+### **1. VNC und SSH aktivieren**
 
 Um VNC zu aktivieren folgt man diesem Pfad: 
 
@@ -83,10 +83,10 @@ Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet 
 
 
 
-**2. Sich über VNC verbinden**
+### **2. Sich über VNC verbinden**
 - VNC Viewer installieren
 - VNC Viewer ausführen und über die IP-Adresse verbinden
-**3. Sich über SSH verbinden**
+### **3. Sich über SSH verbinden**
 Um sich über SSH zu verbinden braucht man eine SSH-Konsole. Z.B. Putty. Putty kann von hier heruntergeladenwerden: 
 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
@@ -95,7 +95,7 @@ Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
 ![Putty](https://user-images.githubusercontent.com/62818267/135057716-356923e4-3691-4964-b23e-a6c626986576.png)
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
-**1. Alle Updates installieren**
+### **1. Alle Updates installieren**
 
 Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates installiert sind.
 
