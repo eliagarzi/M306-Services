@@ -34,36 +34,27 @@
 
 # 3. Benoetigte Hard- und Software
 
-
-  Benötigte Hardsware wird:
-   -  Rsaspberry-pi 3
+**Hardware** 
+   -  Raspberry-pi 3
    -  Bildschirm
    -  mini HDMI Kabel und Adapter
    -  Externe Tastatur
    -  SD Speicherkarte (Raspi Image)
-   -  Stromkabel USB-C (Raspberrypi)
-
-**Hardware** 
-- Raspbery Pi
+   -  Stromkabel USB-C (Raspberry Pi)
 
 
 **Software**
 - Pi OS 
-- Pi OS Imager
-
-
-   - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
+- Pi OS Imager 
+- Webmin Repository (http://download.webmin.com/download/repository)
+- Webmin Packages (apt install webmin)
 
 # 4. Installationsanleitung
    - Anweisungen verstaendlich und nachvollziehbar
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
 
-## **1. Pi-OS**
-
-
-
-## **2. Pi-OS installieren**
+## **1. Pi-OS installieren**
 Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden.
 Dazu gibt das offizielle Pi OS, welches auf Debian basiert.
 
@@ -72,7 +63,7 @@ Zur einfachen Installation des Betriebessystemes nutzen wir den Pi Imager, der v
 https://www.raspberrypi.org/software/
 
 
-### **1. Pi-Hole Image auf SD Karte installieren**
+### **2. Pi-Hole Image auf SD Karte installieren**
 Nach der Installation startet man den Pi Imager und wählt als Betriebssystem Pi OS (32-Bit) aus und als SD-Karte die SD-Karte die man mit dem Raspberry Pi bekommen hat. 
 
 ![Pi OS mit dem Pi Imager installieren](https://user-images.githubusercontent.com/62818267/135052119-cdbbcb2a-f0aa-4372-a9c2-80e4a8bb2afd.png)
