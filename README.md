@@ -25,7 +25,10 @@
 
  Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
+Generelle information:
+- Zu beachten ist, dass man immer auf die Version achtet. Diese kann man immer mit ``sudp apt update && upgrade Name des Package``
 
+- Wichtig ist auch in Bezug auf VNC das man auf die IP-Adresse achtet und auf das korrekte Subnetz
 
 
 # 3. Benoetigte Hard- und Software
