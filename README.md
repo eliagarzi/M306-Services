@@ -165,6 +165,15 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 # 5. Qualitaetskontrolle
 
+
+- Webinterface ist erreichbar 
+- Webmin kann auf der Konsole 
+- a
+- awdawd
+
+![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
+
+
 # 6. Error-Handling
 
 # 7. Quellen
