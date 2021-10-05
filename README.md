@@ -103,6 +103,9 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 `sudo apt-get update && sudo apt-get upgrade -y`
 
+**Was ist ein Repository?**
+
+
 **2. Webmin Repository hinzufügen**
 
 **2. Webmin installieren**
