@@ -62,9 +62,6 @@ https://www.raspberrypi.org/software/
 ### **2. Pi-Hole Image auf SD Karte installieren**
 Nach der Installation startet man den Pi Imager und wählt als Betriebssystem Pi OS (32-Bit) aus und als SD-Karte die SD-Karte die man mit dem Raspberry Pi bekommen hat. 
 
-![Pi OS mit dem Pi Imager installieren](https://user-images.githubusercontent.com/62818267/135052119-cdbbcb2a-f0aa-4372-a9c2-80e4a8bb2afd.png)
-
-
 ## **2. Grundkonfiguration vornehmen**
 Für diesen Schritt braucht man: 
 - Einen Bildschirm 
