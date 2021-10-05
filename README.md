@@ -15,7 +15,7 @@
 - 
 - 
 - 
--
+
 
 ## Zeitaufwand und Stolpersteine
 **Vorgesehener Zeitaufwand für die Realisierung**
