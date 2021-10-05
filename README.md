@@ -47,23 +47,23 @@
 
 ## Zeitaufwand und Stolpersteine
 **Vorgesehener Zeitaufwand für die Realisierung**
-- Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
+- Für die Konfiguration und Einrichtung des Webmin und VNC solte man ungefähr 15 min einberechnen
 
 **Stolpersteine**
-- Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohne Probleme auf den Pi spielen. Das einzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
+- Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspberry Pi image konnten wir ohne Probleme auf den Pi spielen. Das einzige Problem, welches es gab, war dass wir keinen Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
-Generelle information:
+Generelle informationen:
 
 - Zu beachten ist, dass man immer auf die Version achtet. Diese kann man immer mit ``sudp apt update && upgrade Name des Package``
   
 
-- Wichtig ist auch in Bezug auf VNC das man auf die IP-Adresse achtet und auf das korrekte Subnetz
+- Wichtig ist auch in Bezug auf VNC das man auf die IP-Adresse achtet und auf das korrekte Subnetz -> Man muss im gleichen Netzwerk sein wie das Raspberry Pi. 
 
 
 # **3. Benoetigte Hard- und Software**
 
   Benötigte Hardware:
-   -  Rsaspberry-pi 3
+   -  Raspberry Pi 
    -  Bildschirm
    -  mini HDMI Kabel und Adapter
    -  Externe Tastatur
@@ -96,7 +96,6 @@ Für diesen Schritt braucht man:
 - Einen Bildschirm 
 - WLAN oder LAN-Kabel
 
-
 Sobald man das Pi OS installiert hat, kann man die SD-Karte in den Raspberry Pi stecken und das Pi starten. Anschliessend kommt eine einfache Grundkonfiguration. Hier muss man die Sprache und das Passwort setzen. Es ist wichtig, dass die Zeitzone richtig auf Zurich konfiguriert ist. 
 
 Wir haben unser Raspberry Pi mit einem TBZ Access Point verbunden. Dafür wählt man oben Rechts das WLAN-Icon aus. 
@@ -117,7 +116,7 @@ Im Raspberry Pi Desktop geht man oben Links auf Einstellungen > Raspberry-Pi-Kon
 
 ![Verbindung mit ssh und vnc](https://user-images.githubusercontent.com/62818267/135980313-4ade90ff-8970-4c72-b515-f6ff9014baa2.png)
 
-Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet man die Konsole auf dem Raspberry Pi und gibt den Befehl 
+Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
       ip a
 
@@ -186,7 +185,7 @@ Nun kann die Linux Paketlisten updaten:
 Nun kann man Webmin insallieren:
 
          sudo apt install webmin
-         
+
 Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
 
          https://IP-Adresse:10000
@@ -204,13 +203,19 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 # 5. Qualitaetskontrolle
 
+
+- Webinterface ist erreichbar
+Das Webinterface muss Korrekt funktionieren und es muss möglich sein erweiterungen zu installiren.
+
+- Webmin kann auf der Konsole administrier bar
+
+
 - **Webinterface ist erreichbar**
 
 ![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
 
 - **Webmin kann auf der Konsole verwaltet werden**
 
- 
 
 
 
