@@ -158,9 +158,18 @@ Nun ist alles bereit für die Installation. Das Webmin-Repository kann erreicht 
 
          wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
 
+Nun kann die Linux Paketlisten updaten:
+
          sudo apt update
 
+Nun kann man Webmin insallieren:
+
          sudo apt install webmin
+         
+Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
+
+         https://IP-Adresse:10000
+
 
 ### **5. Webmin administrieren**
 Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
