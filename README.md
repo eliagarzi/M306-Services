@@ -105,7 +105,6 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 **Was ist ein Repository?**
 
-
 **2. Webmin Repository hinzufügen**
 
 **2. Webmin installieren**
