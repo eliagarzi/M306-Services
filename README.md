@@ -163,12 +163,6 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 # 5. Qualitaetskontrolle
 
-<<<<<<< HEAD
-- 
-
-
-# 6. Error-Handling
-=======
 
 
 - Webinterface ist erreichbar 
@@ -185,7 +179,6 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 ## 2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe? 
 ## 3. Wofür wird ein GPG Key beim Repository gebraucht?
 
->>>>>>> 8dbdad65497dc28573af2e59f3271b7a01a309c9
 
 # 7. Quellen
 
