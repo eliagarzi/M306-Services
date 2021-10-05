@@ -37,7 +37,6 @@
    -  Stromkabel USB-C (Raspberrypi)
 
 
-
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
 
 # 4. Installationsanleitung
