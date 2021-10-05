@@ -3,8 +3,8 @@
 - [**Werkstattauftrag W7 Webmin**](#werkstattauftrag-w7-webmin)
 - [**1. Autoren, Versionierung des Dokumentes**](#1-autoren-versionierung-des-dokumentes)
 - [**2. Einfuehrung**](#2-einfuehrung)
-  - [Aufgabe: Was ist Webmin und wofür wird es gebraucht?](#aufgabe-was-ist-webmin-und-wofür-wird-es-gebraucht)
-  - [Zeitaufwand und Stolpersteine](#zeitaufwand-und-stolpersteine)
+  - [**Aufgabe: Was ist Webmin und wofür wird es gebraucht?**](#aufgabe-was-ist-webmin-und-wofür-wird-es-gebraucht)
+  - [**Zeitaufwand und Stolpersteine**](#zeitaufwand-und-stolpersteine)
 - [**3. Benoetigte Hard- und Software**](#3-benoetigte-hard--und-software)
 - [**4. Installationsanleitung**](#4-installationsanleitung)
   - [**1. Pi-OS installieren**](#1-pi-os-installieren)
@@ -19,13 +19,13 @@
     - [**2. Webmin Repository hinzufügen**](#2-webmin-repository-hinzufügen)
     - [**3. Webmin installieren**](#3-webmin-installieren)
     - [**4. Webmin administrieren**](#4-webmin-administrieren)
-- [5. Qualitaetskontrolle](#5-qualitaetskontrolle)
+- [**5. Qualitaetskontrolle**](#5-qualitaetskontrolle)
 - [**6. Aufgaben**](#6-aufgaben)
-  - [1. Was ist SSH und ist es sicher?](#1-was-ist-ssh-und-ist-es-sicher)
-  - [2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe?](#2-was-ist-ein-repository-und-was-passiert-wenn-ich-apt-get-update-eingebe)
-  - [3. Wofür wird ein PGP Key beim Repository gebraucht?](#3-wofür-wird-ein-pgp-key-beim-repository-gebraucht)
-- [7. Quellen](#7-quellen)
-- [8. OpenSource Lizenz](#8-opensource-lizenz)
+  - [**1. Was ist SSH und ist es sicher?**](#1-was-ist-ssh-und-ist-es-sicher)
+  - [**2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe?**](#2-was-ist-ein-repository-und-was-passiert-wenn-ich-apt-get-update-eingebe)
+  - [**3. Wofür wird ein PGP Key beim Repository gebraucht?**](#3-wofür-wird-ein-pgp-key-beim-repository-gebraucht)
+- [**7. Quellen**](#7-quellen)
+- [**8. OpenSource Lizenz**](#8-opensource-lizenz)
 
 
 # **1. Autoren, Versionierung des Dokumentes**
@@ -38,14 +38,14 @@
 
 # **2. Einfuehrung**
 
-## Aufgabe: Was ist Webmin und wofür wird es gebraucht?
+## **Aufgabe: Was ist Webmin und wofür wird es gebraucht?**
 
 - 
 - 
 - 
 
 
-## Zeitaufwand und Stolpersteine
+## **Zeitaufwand und Stolpersteine**
 **Vorgesehener Zeitaufwand für die Realisierung**
 - Für die Konfiguration und Einrichtung des Webmin und VNC solte man ungefähr 15 min einberechnen
 
@@ -201,7 +201,7 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 - Webmin stoppen: sudo sytemctl stop webmin.service
 - Webmin neustarten: sudo systemctl restart webmin.service
 
-# 5. Qualitaetskontrolle
+# **5. Qualitaetskontrolle**
 
 
 - Webinterface ist erreichbar
@@ -221,13 +221,13 @@ Das Webinterface muss Korrekt funktionieren und es muss möglich sein erweiterun
 
 # **6. Aufgaben**
 
-## 1. Was ist SSH und ist es sicher? 
+## **1. Was ist SSH und ist es sicher?**
 
 - SSH steht für Secure Shell und ist standardmässig auf Port 22
 - SSH ist verschlüsselt und kann für sichere Remoteverbindungen genutzt werden
 - SSH kann sowohl mit Nutzername/Kennwort aber auch mit Private/Public Key Pairs authentifiziert werden
 
-## 2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe? 
+## **2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe?**
 
 - Repositorys werden manuell zusammengestellt
 - Repositorys enthalten Softwarepakete die damit verteilt werden können
@@ -235,7 +235,7 @@ Das Webinterface muss Korrekt funktionieren und es muss möglich sein erweiterun
 - Repositorys werden per Paketmanager (z.B. APT auf ubuntu verwaltet)- 
 
 
-## 3. Wofür wird ein PGP Key beim Repository gebraucht?
+## **3. Wofür wird ein PGP Key beim Repository gebraucht?**
 
 - PGP ist eine Signatur für Softwarepakete
 - PGP wird eingesetzt, um die Integrität der Softwarepaketen zu validieren
@@ -246,7 +246,7 @@ Mehr zum Thema:
 https://www.redhat.com/sysadmin/rpm-gpg-verify-packages
 
 
-# 7. Quellen
+# **7. Quellen**
 
 **Bilder:** Von uns
 
@@ -258,5 +258,5 @@ https://www.redhat.com/sysadmin/rpm-gpg-verify-packages
 
 **Webmin:** https://webmin.com/
 
-# 8. OpenSource Lizenz
+# **8. OpenSource Lizenz**
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/ch/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Schweiz Lizenz</a>
