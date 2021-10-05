@@ -10,17 +10,15 @@
 
 # 2. Einfuehrung
 
-**1. Was ist Webmin?**
-   - Beschreibung: Welche Funktionen wird der Service erfuellen
+## Aufgabe: Was ist Webmin und wofür wird es gebraucht?**
 
-      Webmin ist ein interface welches dir erlauft viele features und Funktionen zentral im Webmingui zu verwalten. Ohne Webmin müsste man alles manuell auf der Konsole eintippen.
+## Zeitaufwand und Stolpersteine
+Vorgesehener Zeitaufwand für die Realisierung
+- Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
 
-   - Vorgesehener Zeitaufwand für die Realisierung
+Stolpersteine
+- Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohne Probleme auf den Pi spielen. Das einzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
-
-      Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
-
-   - Stolpersteine
 
  Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
@@ -165,10 +163,29 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 # 5. Qualitaetskontrolle
 
+<<<<<<< HEAD
 - 
 
 
 # 6. Error-Handling
+=======
+
+
+- Webinterface ist erreichbar 
+- Webmin kann auf der Konsole 
+- a
+- awdawd
+
+![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
+
+
+# 6. Aufgaben
+
+## 1. Was ist SSH und ist es sicher? 
+## 2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe? 
+## 3. Wofür wird ein GPG Key beim Repository gebraucht?
+
+>>>>>>> 8dbdad65497dc28573af2e59f3271b7a01a309c9
 
 # 7. Quellen
 
