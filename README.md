@@ -125,7 +125,7 @@ Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates instal
 
 Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
-`sudo apt-get update && sudo apt-get upgrade -y`
+         sudo apt-get update && sudo apt-get upgrade -y
 
 
 
@@ -138,11 +138,11 @@ Für die Installation von Webmin braucht man ein spezielles Repository. Man brau
 
 Dazu editiert man die sources.list Datei, in welcher alle Repositorys gespeichert werden, welche z.B. bei einem apt-get update abgefragt werden. 
 
-´sudo nano /etc/apt/sources.list´
+         sudo nano /etc/apt/sources.list
 
 In der sources.list fügt man nun das Webmin-Repository hinzu, indem man folgende Zeile am Ende der Datei einfügt.
 
-´deb http://download.webmin.com/download/repository sarge contrib´
+         deb http://download.webmin.com/download/repository sarge contrib
 
 Am Ende sollte dies so aussehen. 
 
@@ -150,17 +150,17 @@ Bild von Sources.list
 
 Die Datei speichern und die Paketliste aktualisieren mit 
 
-´apt update´
+         apt update
 
 ### **3. Webmin installieren**
 Nun ist alles bereit für die Installation. Das Webmin-Repository kann erreicht werden. 
 
 
-´wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add´
+         wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
 
-´sudo apt update´
+         sudo apt update
 
-´sudo apt install webmin´
+         sudo apt install webmin
 
 ### **5. Webmin administrieren**
 Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
