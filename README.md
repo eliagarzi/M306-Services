@@ -29,7 +29,7 @@
 
    - Stolpersteine
 
-      Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
+    Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
 
 # 3. Benoetigte Hard- und Software
