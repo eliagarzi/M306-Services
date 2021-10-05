@@ -77,6 +77,8 @@ Um das Raspberry Pi einfacher zu verwalten nutzt man eine Remoteverbindung. Dies
 
 ### **1. VNC und SSH aktivieren**
 
+**Aufgabe: Was ist SSH und ist es sicher?**
+
 VNC und SSH sind beides Protokolle für die Remote-Verwaltung von Linux-Servern.
 
 Im Raspberry Pi Desktop geht man oben Links auf Einstellungen > Raspberry-Pi-Konfiguration > Schnittstellen
@@ -119,7 +121,7 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 ### **2. Webmin Repository hinzufügen**
 
-**Was ist ein Repository?**
+**Aufgabe: Was ist ein Repository und was passiert wenn ich apt update mache?**
 Bevor wir diesen Schritt machen, ist es wichtig zu verstehen, was ein Repository ist und welche Aufgabe es hat. 
 
 Für die Installation von Webmin braucht man ein spezielles Repository. Man braucht das Webmin Repository. In diesem Repository werden alle Packages für die Installation und Updates bereitgestellt. Dieses Repository muss manuell zur Repository-Liste hinzugefügt werden. 
@@ -140,6 +142,7 @@ Bild von Sources.list
 ### **3. Webmin installieren**
 Nun ist alles bereit für die Installation. Das Webmin-Repository kann erreicht werden. 
 
+**Aufgabe: Was ist ein PGP Key und wieso braucht man diesen für das Repository?**
 Um das neue Repository nutzen zu können, muss man den PGP Key hinzufügen:
 
          wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
@@ -156,7 +159,9 @@ Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
 
          https://IP-Adresse:10000
 
-### **5. Webmin administrieren**
+Das Login zum Webinterface ist der Pi-Benutzername "Pi" und das Passwort.
+
+### **3. Webmin administrieren**
 Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 - Paketlisten aktualisieren: sudo apt-get update
@@ -167,21 +172,21 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 # 5. Qualitaetskontrolle
 
-
-
 - Webinterface ist erreichbar 
-- Webmin kann auf der Konsole 
-- a
-- awdawd
 
 ![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
+
+- Webmin kann auf der Konsole verwaltet werden
+
+ 
+
 
 
 # **6. Aufgaben**
 
 ## 1. Was ist SSH und ist es sicher? 
 ## 2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe? 
-## 3. Wofür wird ein GPG Key beim Repository gebraucht?
+## 3. Wofür wird ein PGP Key beim Repository gebraucht?
 
 
 # 7. Quellen
