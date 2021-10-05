@@ -30,8 +30,9 @@
 
 # 3. Benoetigte Hard- und Software
 
-**Hardware** 
-   -  Raspberry-pi 3
+
+  Benötigte Hardware:
+   -  Rsaspberry-pi 3
    -  Bildschirm
    -  mini HDMI Kabel und Adapter
    -  Externe Tastatur
