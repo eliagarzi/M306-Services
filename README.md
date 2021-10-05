@@ -28,7 +28,7 @@
 
 # 3. Benoetigte Hard- und Software
 
-  Benötigt wird:
+  Benötigte Hardsware wird:
    -  Rsaspberry-pi 3
    -  Bildschirm
    -  mini HDMI Kabel und Adapter
