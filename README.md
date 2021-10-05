@@ -95,7 +95,7 @@ Im Raspberry Pi Desktop geht man oben Links auf Einstellungen > Raspberry-Pi-Kon
 
 Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet man die Konsole auf dem Raspberry Pi und gibt den Befehl 
 
-`ip a`
+ip a
 
 ![Ip Adresse](https://user-images.githubusercontent.com/62818267/135597364-169c4601-91f3-4f94-884e-76bfd55f4312.png)
 
