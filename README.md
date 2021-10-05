@@ -1,6 +1,6 @@
-# Werkstattauftrag W7 Webmin
+# **Werkstattauftrag W7 Webmin**
 
-# 1. Autoren, Versionierung des Dokumentes
+# **1. Autoren, Versionierung des Dokumentes**
 
 **Autoren:** Elia Garzi, Sebastian Gruber
 
@@ -8,21 +8,25 @@
 
 **Version:** 1.0
 
-# 2. Einfuehrung
+# **2. Einfuehrung**
 
-**1. Was ist Webmin?**
-   - Beschreibung: Welche Funktionen wird der Service erfuellen
+## Aufgabe: Was ist Webmin und wofür wird es gebraucht?
 
-      Webmin ist ein interface welches dir erlauft viele features und Funktionen zentral im Webmingui zu verwalten. Ohne Webmin müsste man alles manuell auf der Konsole eintippen.
+- 
+- 
+- 
 
-   - Vorgesehener Zeitaufwand für die Realisierung
 
+## Zeitaufwand und Stolpersteine
+**Vorgesehener Zeitaufwand für die Realisierung**
+- Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
 
-      Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
+**Stolpersteine**
+- Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohne Probleme auf den Pi spielen. Das einzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
-   - Stolpersteine
 
  Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
+
 
 Generelle information:
 - Zu beachten ist, dass man immer auf die Version achtet. Diese kann man immer mit ``sudp apt update && upgrade Name des Package``
@@ -33,6 +37,9 @@ Generelle information:
 
 
 # 3. Benoetigte Hard- und Software
+
+# **3. Benoetigte Hard- und Software**
+
 
 
   Benötigte Hardware:
@@ -50,7 +57,7 @@ Generelle information:
 - Webmin Repository (http://download.webmin.com/download/repository)
 - Webmin Packages (apt install webmin)
 
-# 4. Installationsanleitung
+# **4. Installationsanleitung**
 
 ## **1. Pi-OS installieren**
 Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden.
@@ -92,7 +99,6 @@ Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet 
 
       ip a
 
-![Ip Adresse](https://user-images.githubusercontent.com/62818267/135597364-169c4601-91f3-4f94-884e-76bfd55f4312.png)
 
 ### **2. Sich über VNC verbinden**
 Für VNC braucht man einen VNC-Client. Ein VNC-Client kann von hier heruntergeladen werden: 
@@ -183,9 +189,11 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 ![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
 
 
+# **6. Aufgaben**
 
-# 6. Error-Handling
-
+## 1. Was ist SSH und ist es sicher? 
+## 2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe? 
+## 3. Wofür wird ein GPG Key beim Repository gebraucht?
 
 
 # 7. Quellen
