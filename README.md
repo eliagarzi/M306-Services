@@ -171,7 +171,7 @@ Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
 
 Das Login zum Webinterface ist der Pi-Benutzername "Pi" und das Passwort.
 
-### **3. Webmin administrieren**
+### **4. Webmin administrieren**
 Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 - Paketlisten aktualisieren: sudo apt-get update
@@ -204,6 +204,7 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 - Repositorys werden manuell zusammengestellt
 - Repositorys werden per Paketmanager (z.B. APT auf ubuntu verwaltet)
+- 
 
 ## 3. Wofür wird ein PGP Key beim Repository gebraucht?
 
