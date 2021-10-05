@@ -126,9 +126,16 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 Das File bearbeiten
 
+
 ### **3. Webmin installieren**
 
-### **4.  
+
+
+### **4. Webmin administrieren
+
+Webmin starten: sudo systemctl start webmin.service
+Webmin stoppen: sudo sytemctl stop webmin.service
+Webmin neustarten: sudo systemctl restart webmin.service
 
 # 5. Qualitaetskontrolle
 
