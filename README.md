@@ -27,7 +27,17 @@
 
 
 # 3. Benoetigte Hard- und Software
-   - Hardware (Materialliste, Funktionalitaet)
+
+  Benötigt wird:
+   -  Rsaspberry-pi 3
+   -  Bildschirm
+   -  mini HDMI Kabel und Adapter
+   -  Externe Tastatur
+   -  SD Speicherkarte (Raspi Image)
+   -  Stromkabel USB-C (Raspberrypi)
+
+
+
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
 
 # 4. Installationsanleitung
