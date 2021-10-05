@@ -94,6 +94,9 @@ Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
 ![Putty](https://user-images.githubusercontent.com/62818267/135057716-356923e4-3691-4964-b23e-a6c626986576.png)
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
+
+**Was ist ein Repository?**
+
 ### **1. Alle Updates installieren**
 
 Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates installiert sind.
@@ -102,11 +105,13 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 `sudo apt-get update && sudo apt-get upgrade -y`
 
-**Was ist ein Repository?**
 
-**2. Webmin Repository hinzufügen**
 
-**2. Webmin installieren**
+### **2. Webmin Repository hinzufügen**
+
+### **3. Webmin installieren**
+
+### **4. 
 
 # 5. Qualitaetskontrolle
 
