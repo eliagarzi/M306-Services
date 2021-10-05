@@ -21,10 +21,10 @@
 
    - Vorgesehener Zeitaufwand für die Realisierung
 
-         Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
+     Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
 
    - Stolpersteine
-  
+
       hh
 
 # 3. Benoetigte Hard- und Software
