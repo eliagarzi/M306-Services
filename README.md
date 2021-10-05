@@ -40,7 +40,6 @@
 **Software**
 - Pi OS 
 - Pi OS Imager
-- 
 
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
 
