@@ -33,6 +33,16 @@
 
 
 # 3. Benoetigte Hard- und Software
+
+
+  Benötigte Hardsware wird:
+   -  Rsaspberry-pi 3
+   -  Bildschirm
+   -  mini HDMI Kabel und Adapter
+   -  Externe Tastatur
+   -  SD Speicherkarte (Raspi Image)
+   -  Stromkabel USB-C (Raspberrypi)
+
 **Hardware** 
 - Raspbery Pi
 
@@ -40,6 +50,7 @@
 **Software**
 - Pi OS 
 - Pi OS Imager
+
 
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
 
@@ -53,8 +64,8 @@
 
 
 ## **2. Pi-OS installieren**
-Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden. 
-Dazu gibt das offizielle Pi OS, welches auf Debian basiert. 
+Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden.
+Dazu gibt das offizielle Pi OS, welches auf Debian basiert.
 
 Zur einfachen Installation des Betriebessystemes nutzen wir den Pi Imager, der von der offiziellen Website heruntergeladen werden kann:
 
