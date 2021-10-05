@@ -155,7 +155,7 @@ Nun kann die Linux Paketlisten updaten:
 Nun kann man Webmin insallieren:
 
          sudo apt install webmin
-         
+
 Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
 
          https://IP-Adresse:10000
@@ -171,12 +171,11 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 # 5. Qualitaetskontrolle
 
+- Webinterface ist erreichbar
+Das Webinterface muss Korrekt funktionieren und es muss möglich sein erweiterungen zu installiren.
 
+- Webmin kann auf der Konsole administrier bar
 
-- Webinterface ist erreichbar 
-- Webmin kann auf der Konsole 
-- a
-- awdawd
 
 ![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
 
