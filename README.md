@@ -89,7 +89,7 @@ VNC und SSH sind beides Protokolle für die Remote-Verwaltung von Linux-Servern.
 
 Im Raspberry Pi Desktop geht man oben Links auf Einstellungen > Raspberry-Pi-Konfiguration > Schnittstellen
 
-![Putty](https://user-images.githubusercontent.com/62818267/135972013-c1d8bef9-8f51-4697-959d-bf3dabe4c989.png)
+![Verbindung mit ssh und vnc](https://user-images.githubusercontent.com/62818267/135980313-4ade90ff-8970-4c72-b515-f6ff9014baa2.png)
 
 Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet man die Konsole auf dem Raspberry Pi und gibt den Befehl 
 
@@ -116,7 +116,6 @@ Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
 
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
-
 
 ### **1. Alle Updates installieren**
 
