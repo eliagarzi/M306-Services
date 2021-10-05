@@ -197,7 +197,8 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 ## 2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe? 
 
 - Repositorys werden manuell zusammengestellt
-- Repositorys enthalten Softwarepakete die darüber 
+- Repositorys enthalten Softwarepakete die damit verteilt werden können
+- Repositorys können sowohl öffentlich, aber auch privat sein
 - Repositorys werden per Paketmanager (z.B. APT auf ubuntu verwaltet)- 
 
 
