@@ -182,11 +182,11 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
 # 5. Qualitaetskontrolle
 
-- Webinterface ist erreichbar 
+- **Webinterface ist erreichbar**
 
 ![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
 
-- Webmin kann auf der Konsole verwaltet werden
+- **Webmin kann auf der Konsole verwaltet werden**
 
  
 
@@ -195,8 +195,25 @@ Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 # **6. Aufgaben**
 
 ## 1. Was ist SSH und ist es sicher? 
+
+- SSH steht für Secure Shell und ist standardmässig auf Port 22
+- SSH ist verschlüsselt und kann für sichere Remoteverbindungen genutzt werden
+- SSH kann sowohl mit Nutzername/Kennwort aber auch mit Private/Public Key Pairs authentifiziert werden
+
 ## 2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe? 
+
+- Repositorys werden manuell zusammengestellt
+- Repositorys werden per Paketmanager (z.B. APT auf ubuntu verwaltet)
+
 ## 3. Wofür wird ein PGP Key beim Repository gebraucht?
+
+- PGP ist eine Signatur für Softwarepakete
+- PGP wird eingesetzt, um die Integrität der Softwarepaketen zu validieren
+- Das verfahren basiert auf Public/Private Key Alogorithmen. Heisst also der Herausgeber des Software signiert seine Pakete mit seinem private Key. Wenn man nun bei der Installation den dazugehörigen Public Key installiert, kann die Herkunft verifiziert werden. 
+
+Mehr zum Thema: 
+
+https://www.redhat.com/sysadmin/rpm-gpg-verify-packages
 
 
 # 7. Quellen
