@@ -18,11 +18,19 @@
 
    - Vorgesehener Zeitaufwand für die Realisierung
 
+
       Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
 
    - Stolpersteine
 
    Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
+=======
+     Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
+
+   - Stolpersteine
+
+      Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
+
 
 # 3. Benoetigte Hard- und Software
    - Hardware (Materialliste, Funktionalitaet)
@@ -96,6 +104,9 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
 
+![Putty](https://user-images.githubusercontent.com/62818267/135974827-71e1a721-2e2d-4174-9a6e-218f597886ce.png)
+
+
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
 
@@ -112,6 +123,8 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 
 ### **2. Webmin Repository hinzufügen**
+
+Das File bearbeiten
 
 ### **3. Webmin installieren**
 
