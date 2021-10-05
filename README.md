@@ -94,6 +94,9 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
 
+![Putty](https://user-images.githubusercontent.com/62818267/135974827-71e1a721-2e2d-4174-9a6e-218f597886ce.png)
+
+
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
 
