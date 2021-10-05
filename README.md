@@ -138,14 +138,11 @@ Am Ende sollte dies so aussehen.
 
 Bild von Sources.list
 
-Die Datei speichern und die Paketliste aktualisieren mit 
-
-         apt update
-
-
 
 ### **3. Webmin installieren**
 Nun ist alles bereit für die Installation. Das Webmin-Repository kann erreicht werden. 
+
+Um das neue Repository nutzen zu können, muss man den PGP Key hinzufügen:
 
          wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
 
@@ -161,15 +158,14 @@ Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
 
          https://IP-Adresse:10000
 
-
 ### **5. Webmin administrieren**
 Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
-Paketlisten aktualisieren: sudo apt-get update
-Pi Os updaten: sudo apt-get upgrade
-Webmin starten: sudo systemctl start webmin.service
-Webmin stoppen: sudo sytemctl stop webmin.service
-Webmin neustarten: sudo systemctl restart webmin.service
+- Paketlisten aktualisieren: sudo apt-get update
+- Pi Os updaten: sudo apt-get upgrade
+- Webmin starten: sudo systemctl start webmin.service
+- Webmin stoppen: sudo sytemctl stop webmin.service
+- Webmin neustarten: sudo systemctl restart webmin.service
 
 # 5. Qualitaetskontrolle
 
