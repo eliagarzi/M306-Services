@@ -36,8 +36,6 @@ Generelle information:
 - Wichtig ist auch in Bezug auf VNC das man auf die IP-Adresse achtet und auf das korrekte Subnetz
 
 
-# 3. Benoetigte Hard- und Software
-
 # **3. Benoetigte Hard- und Software**
 
 
