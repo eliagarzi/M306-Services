@@ -72,6 +72,8 @@ Um VNC zu aktivieren folgt man diesem Pfad:
 
 Im Raspberry Pi Desktop geht man oben Links auf Einstellungen > Raspberry-Pi-Konfiguration > Schnittstellen
 
+![Putty](https://user-images.githubusercontent.com/62818267/135972013-c1d8bef9-8f51-4697-959d-bf3dabe4c989.png)
+
 
 
 Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet man die Konsole auf dem Raspberry Pi und gibt den Befehl 
