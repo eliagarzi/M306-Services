@@ -12,9 +12,6 @@
 # 2. Einfuehrung
 
 **1. Was ist Webmin?**
-
-
-
    - Beschreibung: Welche Funktionen wird der Service erfuellen
 
       Webmin ist ein interface welches dir erlauft viele features und Funktionen zentral im Webmingui zu verwalten. Ohne Webmin müsste man alles manuell auf der Konsole eintippen.
@@ -36,7 +33,11 @@
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
 
-## **1. Pi-OS installieren**
+## **1. Pi-OS**
+
+
+
+## **2. Pi-OS installieren**
 Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden. 
 Dazu gibt das offizielle Pi OS, welches auf Debian basiert. 
 
@@ -51,7 +52,7 @@ Nach der Installation startet man den Pi Imager und wählt als Betriebssystem Pi
 ![Pi OS mit dem Pi Imager installieren](https://user-images.githubusercontent.com/62818267/135052119-cdbbcb2a-f0aa-4372-a9c2-80e4a8bb2afd.png)
 
 
-### **2. Grundkonfiguration vornehmen**
+## **2. Grundkonfiguration vornehmen**
 Für diesen Schritt braucht man: 
 - Einen Bildschirm 
 - WLAN oder LAN-Kabel
@@ -64,7 +65,7 @@ Wir haben unser Raspberry Pi mit einem TBZ Access Point verbunden. Dafür wählt
 ![Den TBZ-WLAN Access Point auswählen für eine Netzwerkverbindung](https://user-images.githubusercontent.com/62818267/135052323-5dcdb100-6dda-405a-a4b8-f963bef7c092.png)
 
 
-## **2 Remoteverbindung mit Raspberry Pi herstellen**
+## **3 Remoteverbindung mit Raspberry Pi herstellen**
 Um das Raspberry Pi einfacher zu verwalten nutzt man eine Remoteverbindung. Dies ermöglicht, dass man über das Netzwerk mit dem Raspberry Pi arbeiten kann. 
 
 ### **1. VNC und SSH aktivieren**
@@ -94,9 +95,15 @@ Um sich über SSH zu verbinden braucht man eine SSH-Konsole. Z.B. Putty. Putty k
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
-![Putty](https://user-images.githubusercontent.com/62818267/135057716-356923e4-3691-4964-b23e-a6c626986576.png)
+
+![Putty](https://user-images.githubusercontent.com/62818267/135974827-71e1a721-2e2d-4174-9a6e-218f597886ce.png)
+
+
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
+
+**Was ist ein Repository?**
+
 ### **1. Alle Updates installieren**
 
 Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates installiert sind.
@@ -105,11 +112,13 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
 `sudo apt-get update && sudo apt-get upgrade -y`
 
-**Was ist ein Repository?**
 
-**2. Webmin Repository hinzufügen**
 
-**2. Webmin installieren**
+### **2. Webmin Repository hinzufügen**
+
+### **3. Webmin installieren**
+
+### **4.  
 
 # 5. Qualitaetskontrolle
 
