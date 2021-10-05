@@ -46,9 +46,6 @@
 - Webmin Packages (apt install webmin)
 
 # 4. Installationsanleitung
-   - Anweisungen verstaendlich und nachvollziehbar
-   - Keine fertigen Loesungsschritte aufzeigen
-   - Hilfestellung (Tipps, Quellen...)
 
 ## **1. Pi-OS installieren**
 Bevor man das Raspberry Pi nutzen kann, muss darauf ein Betriebssystem installiert werden.
