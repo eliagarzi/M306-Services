@@ -1,6 +1,5 @@
 # Werkstattauftrag W7 Webmin
 
-
 # 1. Autoren, Versionierung des Dokumentes
 
 **Autoren:** Elia Garzi, Sebastian Gruber
@@ -24,9 +23,6 @@
    - Stolpersteine
 
  Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
-
-
-
 
 # 3. Benoetigte Hard- und Software
 
@@ -119,7 +115,6 @@ Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
          sudo apt-get update && sudo apt-get upgrade -y
 
 
-
 ### **2. Webmin Repository hinzufügen**
 
 **Was ist ein Repository?**
@@ -139,14 +134,11 @@ Am Ende sollte dies so aussehen.
 
 Bild von Sources.list
 
-Die Datei speichern und die Paketliste aktualisieren mit 
-
-         apt update
-
-
 
 ### **3. Webmin installieren**
 Nun ist alles bereit für die Installation. Das Webmin-Repository kann erreicht werden. 
+
+Um das neue Repository nutzen zu können, muss man den PGP Key hinzufügen:
 
          wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
 
@@ -162,17 +154,25 @@ Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
 
          https://IP-Adresse:10000
 
-
 ### **5. Webmin administrieren**
 Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
 
-Paketlisten aktualisieren: sudo apt-get update
-Pi Os updaten: sudo apt-get upgrade
-Webmin starten: sudo systemctl start webmin.service
-Webmin stoppen: sudo sytemctl stop webmin.service
-Webmin neustarten: sudo systemctl restart webmin.service
+- Paketlisten aktualisieren: sudo apt-get update
+- Pi Os updaten: sudo apt-get upgrade
+- Webmin starten: sudo systemctl start webmin.service
+- Webmin stoppen: sudo sytemctl stop webmin.service
+- Webmin neustarten: sudo systemctl restart webmin.service
 
 # 5. Qualitaetskontrolle
+
+
+
+- Webinterface ist erreichbar 
+- Webmin kann auf der Konsole 
+- a
+- awdawd
+
+![grafik](https://user-images.githubusercontent.com/62818267/135986304-b833b820-fbc9-4cda-a012-501d17cde063.png)
 
 
 
