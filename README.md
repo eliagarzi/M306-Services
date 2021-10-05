@@ -13,10 +13,10 @@
 ## Aufgabe: Was ist Webmin und wofür wird es gebraucht?**
 
 ## Zeitaufwand und Stolpersteine
-Vorgesehener Zeitaufwand für die Realisierung
+**Vorgesehener Zeitaufwand für die Realisierung**
 - Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
 
-Stolpersteine
+**Stolpersteine**
 - Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohne Probleme auf den Pi spielen. Das einzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
 
