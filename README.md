@@ -12,6 +12,11 @@
 
 ## Aufgabe: Was ist Webmin und wofür wird es gebraucht?
 
+- 
+- 
+- 
+-
+
 ## Zeitaufwand und Stolpersteine
 **Vorgesehener Zeitaufwand für die Realisierung**
 - Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
