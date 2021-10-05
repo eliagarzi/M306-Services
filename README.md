@@ -1,5 +1,33 @@
 # **Werkstattauftrag W7 Webmin**
 
+- [**Werkstattauftrag W7 Webmin**](#werkstattauftrag-w7-webmin)
+- [**1. Autoren, Versionierung des Dokumentes**](#1-autoren-versionierung-des-dokumentes)
+- [**2. Einfuehrung**](#2-einfuehrung)
+  - [Aufgabe: Was ist Webmin und wofür wird es gebraucht?](#aufgabe-was-ist-webmin-und-wofür-wird-es-gebraucht)
+  - [Zeitaufwand und Stolpersteine](#zeitaufwand-und-stolpersteine)
+- [**3. Benoetigte Hard- und Software**](#3-benoetigte-hard--und-software)
+- [**4. Installationsanleitung**](#4-installationsanleitung)
+  - [**1. Pi-OS installieren**](#1-pi-os-installieren)
+    - [**2. Pi-Hole Image auf SD Karte installieren**](#2-pi-hole-image-auf-sd-karte-installieren)
+  - [**2. Grundkonfiguration vornehmen**](#2-grundkonfiguration-vornehmen)
+  - [**3 Remoteverbindung mit Raspberry Pi herstellen**](#3-remoteverbindung-mit-raspberry-pi-herstellen)
+    - [**1. VNC und SSH aktivieren**](#1-vnc-und-ssh-aktivieren)
+    - [**2. Sich über VNC verbinden**](#2-sich-über-vnc-verbinden)
+    - [**3. Sich über SSH verbinden**](#3-sich-über-ssh-verbinden)
+  - [**3 Webmin auf dem Raspberry Pi installieren**](#3-webmin-auf-dem-raspberry-pi-installieren)
+    - [**1. Alle Updates installieren**](#1-alle-updates-installieren)
+    - [**2. Webmin Repository hinzufügen**](#2-webmin-repository-hinzufügen)
+    - [**3. Webmin installieren**](#3-webmin-installieren)
+    - [**4. Webmin administrieren**](#4-webmin-administrieren)
+- [5. Qualitaetskontrolle](#5-qualitaetskontrolle)
+- [**6. Aufgaben**](#6-aufgaben)
+  - [1. Was ist SSH und ist es sicher?](#1-was-ist-ssh-und-ist-es-sicher)
+  - [2. Was ist ein Repository und was passiert wenn ich apt-get update eingebe?](#2-was-ist-ein-repository-und-was-passiert-wenn-ich-apt-get-update-eingebe)
+  - [3. Wofür wird ein PGP Key beim Repository gebraucht?](#3-wofür-wird-ein-pgp-key-beim-repository-gebraucht)
+- [7. Quellen](#7-quellen)
+- [8. OpenSource Lizenz](#8-opensource-lizenz)
+
+
 # **1. Autoren, Versionierung des Dokumentes**
 
 **Autoren:** Elia Garzi, Sebastian Gruber
