@@ -85,27 +85,27 @@ Um das Raspberry Pi einfacher zu verwalten nutzt man eine Remoteverbindung. Dies
 
 ### **1. VNC und SSH aktivieren**
 
-Um VNC zu aktivieren folgt man diesem Pfad: 
+VNC und SSH sind beides Protokolle für die Remote-Verwaltung von Linux-Servern.
 
 Im Raspberry Pi Desktop geht man oben Links auf Einstellungen > Raspberry-Pi-Konfiguration > Schnittstellen
 
 ![Putty](https://user-images.githubusercontent.com/62818267/135972013-c1d8bef9-8f51-4697-959d-bf3dabe4c989.png)
 
-
-
 Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet man die Konsole auf dem Raspberry Pi und gibt den Befehl 
 
-ip a
+      ip a
 
 ![Ip Adresse](https://user-images.githubusercontent.com/62818267/135597364-169c4601-91f3-4f94-884e-76bfd55f4312.png)
 
-
-
 ### **2. Sich über VNC verbinden**
-- VNC Viewer installieren
-- VNC Viewer ausführen und über die IP-Adresse verbinden
+Für VNC braucht man einen VNC-Client. Ein VNC-Client kann von hier heruntergeladen werden: 
+
+https://www.realvnc.com/download/viewer/
+
+Anschliessend installiert man den Client und verbindet sich mit dem Raspberry Pi mit der IP-Adresse.
+
 ### **3. Sich über SSH verbinden**
-Um sich über SSH zu verbinden braucht man eine SSH-Konsole. Z.B. Putty. Putty kann von hier heruntergeladenwerden: 
+Um sich über SSH zu verbinden braucht man eine SSH-Konsole. Z.B. Putty. Putty kann von hier heruntergeladen werden: 
 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
@@ -116,7 +116,6 @@ Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
 
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
-
 
 
 ### **1. Alle Updates installieren**
@@ -152,9 +151,10 @@ Die Datei speichern und die Paketliste aktualisieren mit
 
          apt update
 
+
+
 ### **3. Webmin installieren**
 Nun ist alles bereit für die Installation. Das Webmin-Repository kann erreicht werden. 
-
 
          wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
 
