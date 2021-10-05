@@ -1,6 +1,5 @@
 # Werkstattauftrag W7 Webmin
 
-
 # 1. Autoren, Versionierung des Dokumentes
 
 **Autoren:** Elia Garzi, Sebastian Gruber
@@ -24,9 +23,6 @@
    - Stolpersteine
 
  Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
-
-
-
 
 # 3. Benoetigte Hard- und Software
 
@@ -117,7 +113,6 @@ Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates instal
 Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
          sudo apt-get update && sudo apt-get upgrade -y
-
 
 
 ### **2. Webmin Repository hinzufügen**
