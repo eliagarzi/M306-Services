@@ -23,10 +23,17 @@
 
    - Stolpersteine
 
+   Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
+=======
+     Für die Konfiguration und Einrichtung des Webin und VNC solte man ungefähr 15 min einberechnen
+
+   - Stolpersteine
+
       Die Konfiguration des Raspberry-Pi's lief bei uns relativ glatt. Unser Raspi image konnten wir ohen Probleme auf den Pi spielen. Daseinzige Problem dases gab war das wir kein Adapter für den Bildschirm hatten. Zum Glück hatte unser Lehrer die passeneden Adapter dabei.
 
 
 # 3. Benoetigte Hard- und Software
+
 
   Benötigte Hardsware wird:
    -  Rsaspberry-pi 3
@@ -35,6 +42,14 @@
    -  Externe Tastatur
    -  SD Speicherkarte (Raspi Image)
    -  Stromkabel USB-C (Raspberrypi)
+
+**Hardware** 
+- Raspbery Pi
+
+
+**Software**
+- Pi OS 
+- Pi OS Imager
 
 
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Abhängigkeiten, Funktionalitaet)
@@ -81,27 +96,27 @@ Um das Raspberry Pi einfacher zu verwalten nutzt man eine Remoteverbindung. Dies
 
 ### **1. VNC und SSH aktivieren**
 
-Um VNC zu aktivieren folgt man diesem Pfad: 
+VNC und SSH sind beides Protokolle für die Remote-Verwaltung von Linux-Servern.
 
 Im Raspberry Pi Desktop geht man oben Links auf Einstellungen > Raspberry-Pi-Konfiguration > Schnittstellen
 
-![Putty](https://user-images.githubusercontent.com/62818267/135972013-c1d8bef9-8f51-4697-959d-bf3dabe4c989.png)
-
-
+![Verbindung mit ssh und vnc](https://user-images.githubusercontent.com/62818267/135980313-4ade90ff-8970-4c72-b515-f6ff9014baa2.png)
 
 Damit die Verbindung funktioniert, braucht man die IP-Adresse. Hierfür öffnet man die Konsole auf dem Raspberry Pi und gibt den Befehl 
 
-`ip a`
+      ip a
 
 ![Ip Adresse](https://user-images.githubusercontent.com/62818267/135597364-169c4601-91f3-4f94-884e-76bfd55f4312.png)
 
-
-
 ### **2. Sich über VNC verbinden**
-- VNC Viewer installieren
-- VNC Viewer ausführen und über die IP-Adresse verbinden
+Für VNC braucht man einen VNC-Client. Ein VNC-Client kann von hier heruntergeladen werden: 
+
+https://www.realvnc.com/download/viewer/
+
+Anschliessend installiert man den Client und verbindet sich mit dem Raspberry Pi mit der IP-Adresse.
+
 ### **3. Sich über SSH verbinden**
-Um sich über SSH zu verbinden braucht man eine SSH-Konsole. Z.B. Putty. Putty kann von hier heruntergeladenwerden: 
+Um sich über SSH zu verbinden braucht man eine SSH-Konsole. Z.B. Putty. Putty kann von hier heruntergeladen werden: 
 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
@@ -113,25 +128,67 @@ Anschliessend startet man Putty und gibt die IP-Adresse vom Raspberry Pi ein
 
 ## **3 Webmin auf dem Raspberry Pi installieren**
 
-**Was ist ein Repository?**
-
 ### **1. Alle Updates installieren**
 
 Bevor man Webmin installiert, sollte man sicherstellen, dass alle Updates installiert sind.
 
 Dazu öffnet man die Konsole auf dem Raspberry Pi und gibt folgenden Befehl ein:
 
-`sudo apt-get update && sudo apt-get upgrade -y`
+         sudo apt-get update && sudo apt-get upgrade -y
 
 
 
 ### **2. Webmin Repository hinzufügen**
 
-Das File bearbeiten
+**Was ist ein Repository?**
+Bevor wir diesen Schritt machen, ist es wichtig zu verstehen, was ein Repository ist und welche Aufgabe es hat. 
+
+Für die Installation von Webmin braucht man ein spezielles Repository. Man braucht das Webmin Repository. In diesem Repository werden alle Packages für die Installation und Updates bereitgestellt. Dieses Repository muss manuell zur Repository-Liste hinzugefügt werden. 
+
+Dazu editiert man die sources.list Datei, in welcher alle Repositorys gespeichert werden, welche z.B. bei einem apt-get update abgefragt werden. 
+
+         sudo nano /etc/apt/sources.list
+
+In der sources.list fügt man nun das Webmin-Repository hinzu, indem man folgende Zeile am Ende der Datei einfügt.
+
+         deb http://download.webmin.com/download/repository sarge contrib
+
+Am Ende sollte dies so aussehen. 
+
+Bild von Sources.list
+
+Die Datei speichern und die Paketliste aktualisieren mit 
+
+         apt update
+
+
 
 ### **3. Webmin installieren**
+Nun ist alles bereit für die Installation. Das Webmin-Repository kann erreicht werden. 
 
-### **4.  
+         wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
+
+Nun kann die Linux Paketlisten updaten:
+
+         sudo apt update
+
+Nun kann man Webmin insallieren:
+
+         sudo apt install webmin
+         
+Anschliessend kann man sich mit dem Webinterface per Browser verbinden:
+
+         https://IP-Adresse:10000
+
+
+### **5. Webmin administrieren**
+Hier noch einige Befehle für das Arbeiten mit Pi Os und Webmin
+
+Paketlisten aktualisieren: sudo apt-get update
+Pi Os updaten: sudo apt-get upgrade
+Webmin starten: sudo systemctl start webmin.service
+Webmin stoppen: sudo sytemctl stop webmin.service
+Webmin neustarten: sudo systemctl restart webmin.service
 
 # 5. Qualitaetskontrolle
 
@@ -146,6 +203,8 @@ Das File bearbeiten
 **Putty:** https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 **VNC Viewer:** https://www.realvnc.com/de/connect/download/viewer/
+
+**Webmin:** https://webmin.com/
 
 # 8. OpenSource Lizenz
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/ch/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Schweiz Lizenz</a>
